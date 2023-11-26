@@ -4,3 +4,4 @@ curl -o /home/print/driver2.deb https://download.brother.com/welcome/dlf005461/d
 curl -o /home/print/driver1.deb https://download.brother.com/welcome/dlf005459/dcp135clpr-1.0.1-1.i386.deb
 sudo dpkg -i --force-all /home/print/driver1.deb
 sudo dpkg -i --force-all /home/print/driver2.deb
+dpkg --configure -a
